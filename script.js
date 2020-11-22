@@ -2,9 +2,7 @@
 function generate(){
 
     let complexity = document.getElementById("slider").value;
-
     let values = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
-
     let password = "";
 
     for(var i = 0; i <= complexity; i++){
@@ -12,14 +10,10 @@ function generate(){
     }
 
     document.getElementById("display").value = password;
-
-
     document.getElementById("lastNums").innerHTML += password + "<br />";
-
 }
 
 document.getElementById("length").innerHTML = "Length: 29";
-
 document.getElementById("slider").oninput = function(){
 
     if(document.getElementById("slider").value > 8){
@@ -31,12 +25,8 @@ document.getElementById("slider").oninput = function(){
 
 }
 
-function copyPassword(){
-
+function copy(){
     document.getElementById("display").select();
-
     document.execCommand("Copy");
-
-    alert("Password copied to clipboard!");
-
+    alert("Password copied!");
 }
