@@ -40,3 +40,10 @@ them how many characters they have selected for their password. Then, they are a
 they will be alerted that the password has been copied. Under the generator container, the user will be shown all their past passwords 
 that they have generated. 
 
+```
+
+## Links
+
+* https://jakealgor.github.io/PasswordGenerator/
+
+* https://github.com/jakealgor/PasswordGenerator/ 
