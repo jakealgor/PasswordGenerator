@@ -1,5 +1,5 @@
 
-function generate(){
+function password(){
 
     let complexity = document.getElementById("slider").value;
     let values = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
